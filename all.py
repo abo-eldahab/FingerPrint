@@ -33,7 +33,7 @@ Real_data = s.load_data(Test_path, train=False)
 
 data = np.concatenate([Easy_data,Medium_data, Hard_data], axis=0) # ,Medium_data, Hard_data
 
-del Easy_data #, Medium_data, Hard_data
+del Easy_data , Medium_data, Hard_data
 
 ###########################################################################################
 
